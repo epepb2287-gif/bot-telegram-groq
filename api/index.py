@@ -10,7 +10,6 @@ g = os.environ.get("GROQ_API_KEY")
 ta = f"https://api.telegram.org/bot{t}"
 ga = "https://api.groq.com/openai/v1/chat/completions"
 
-
 @app.route("/", methods=["GET"])
 def home():
   return "Bot Telegram Groq AI aktif di Vercel!"
