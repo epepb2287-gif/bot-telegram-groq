@@ -8,7 +8,7 @@ t = os.environ.get("TELEGRAM_TOKEN")
 g = os.environ.get("GROQ_API_KEY")
 
 ta = f"https://api.telegram.org/bot{t}"
-ga = "https://api.api.groq.com/openai/v1/chat/completions"
+ga = "https://api.groq.com/openai/v1/chat/completions"
 
 
 @app.route("/", methods=["GET"])
